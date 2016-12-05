@@ -8,6 +8,6 @@ public class CategoryItem : MonoBehaviour {
     public Text category_name;
 
     public void show_this_category() {
-        main.Instace.set_category(id);
+        main.Instace.show_items(id);
     }
 }
